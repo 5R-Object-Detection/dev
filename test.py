@@ -197,7 +197,7 @@ class VideoProcessor:
 
 
 if __name__ == "__main__":
-    video_file = "/Users/akmalramadhan76gmail.com/Local Documents/Toyota/5R/sample_video/sample_video_2.mp4"
+    video_file = "/Users/akmalramadhan76gmail.com/Local Documents/Toyota/5R/sample_video/sample_video_1.mp4"
     
     # Interactive polygon selection
     selector = RegionSelector(source=video_file)
