@@ -3,3 +3,4 @@
 /sample_video
 /temp*
 *.pt
+/__pycache__
