@@ -30,3 +30,9 @@ class IMotionTracker(ABC):
     @abstractmethod
     def update_and_check_motion(self, person_id: int, centroid: Tuple[float, float]) -> bool:
         pass
+
+class IPocketHandsValidator(ABC):
+    """Abstract interface to detect hands inside pockets."""
+    @abstractmethod
+    def check_hands_in_pockets(self, person_id: int, keypoints: torch.Tensor, is_walking: bool) -> bool:
+        pass
